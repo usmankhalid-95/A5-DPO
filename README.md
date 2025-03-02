@@ -116,14 +116,14 @@ The evaluation phase provides insights into how well the trained models generali
 ![Evaluation Metrics](evaluation.png)
 
 
+## Conclusion
+
+This project successfully fine-tuned a GPT-2 model using **Direct Preference Optimization** on the **Anthropic/hh-rlhf** dataset. The best model achieved a final evaluation loss of **0.0364**, demonstrating improved alignment with human preferences.
+
 
 ## Website Screenshot
 Below is a screenshot of the working website:
 
-The results obtained are not as expected due to the use of only 5 samples, which was a direct result of hardware limitations. Specifically, the analysis was conducted using MPS (Metal Performance Shaders), and increasing the dataset size beyond 7 samples causes the system to crash. As a result, the dataset size was kept small to avoid instability and ensure the system remained operational.
+### The results obtained are not as expected due to the use of only 5 samples, which was a direct result of hardware limitations. Specifically, the analysis was conducted using MPS (Metal Performance Shaders), and increasing the dataset size beyond 7 samples causes the system to crash. As a result, the dataset size was kept small to avoid instability and ensure the system remained operational.
 
 ![Website Screenshot](app.png)
-
-## Conclusion
-
-This project successfully fine-tuned a GPT-2 model using **Direct Preference Optimization** on the **Anthropic/hh-rlhf** dataset. The best model achieved a final evaluation loss of **0.0364**, demonstrating improved alignment with human preferences.
